@@ -14,7 +14,15 @@ public class JavaApplication24 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        String cadena="Voy al gimnasion por la noche";
+        System.out.println(cadena);
+        
+        System.out.printf("\n");
+        
+        //creo un nuevo atributo llamado fin. 
+        String fin=cadena.replaceAll("[aeiouAEIOU]", "");
+        
+        System.out.println(fin);        
     }
     
 }
