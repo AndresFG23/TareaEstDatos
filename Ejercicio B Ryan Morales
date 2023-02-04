@@ -1,0 +1,29 @@
+public class SUMA 
+{
+
+    public static void main(String[] args) {
+
+        int n = 9;
+        int resultado = sumaRecursiva(n);
+        System.out.println(resultado);
+
+    }
+
+    public static int sumaRecursiva(int n) {
+
+        int result;
+        
+        if (n == 1) {
+            return 1;
+
+        } else {
+            result = n + sumaRecursiva(n-1);
+
+        }
+
+        return result;
+
+    }
+
+}
+//Autor: Ryan Morales . 
