@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+/**
+ *
+ * @author R
+ */
+public class NumeroBinario {
+
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println("Digite cualquier número: ");
+
+        System.out.println(input.nextLine());
+        
+          
+
+        int n = input.nextInt();
+
+        if (n % 2 == 0) {
+            System.out.println("N es un número binario");
+        } else {
+            System.out.println("N no es binario ");
+        }
+
+    }
+}
